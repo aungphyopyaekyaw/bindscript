@@ -1,4 +1,4 @@
-# bindscript
+# srvscripts
 These script are using to add master for bind9 DNS server configuration.
 
 I've written these script as below structure(directory)
