@@ -1,0 +1,19 @@
+kernellab.site.         600     IN      A       172.31.40.54
+kernellab.site.         3600    IN      NS      testserver.kernellab.site.
+_msdcs.kernellab.site.  3600    IN      NS      testserver.kernellab.site.
+_gc._tcp.Default-First-Site-Name._sites.kernellab.site. 600 IN SRV 0 100 3268 testserver.kernellab.site.
+_kerberos._tcp.Default-First-Site-Name._sites.kernellab.site. 600 IN SRV 0 100 88 testserver.kernellab.site.
+_ldap._tcp.Default-First-Site-Name._sites.kernellab.site. 600 IN SRV 0 100 389 testserver.kernellab.site.
+_gc._tcp.kernellab.site. 600    IN      SRV     0 100 3268 testserver.kernellab.site.
+_kerberos._tcp.kernellab.site. 600 IN   SRV     0 100 88 testserver.kernellab.site.
+_kpasswd._tcp.kernellab.site. 600 IN    SRV     0 100 464 testserver.kernellab.site.
+_ldap._tcp.kernellab.site. 600  IN      SRV     0 100 389 testserver.kernellab.site.
+_kerberos._udp.kernellab.site. 600 IN   SRV     0 100 88 testserver.kernellab.site.
+_kpasswd._udp.kernellab.site. 600 IN    SRV     0 100 464 testserver.kernellab.site.
+DomainDnsZones.kernellab.site. 600 IN   A       172.31.40.54
+_ldap._tcp.Default-First-Site-Name._sites.DomainDnsZones.kernellab.site. 600 IN SRV 0 100 389 testserver.kernellab.site.
+_ldap._tcp.DomainDnsZones.kernellab.site. 600 IN SRV 0 100 389 testserver.kernellab.site.
+ForestDnsZones.kernellab.site. 600 IN   A       172.31.40.54
+_ldap._tcp.Default-First-Site-Name._sites.ForestDnsZones.kernellab.site. 600 IN SRV 0 100 389 testserver.kernellab.site.
+_ldap._tcp.ForestDnsZones.kernellab.site. 600 IN SRV 0 100 389 testserver.kernellab.site.
+testserver.kernellab.site. 3600 IN A       172.31.40.54
